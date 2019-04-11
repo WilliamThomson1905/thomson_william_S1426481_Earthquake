@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+ Name                 William Thomson
+ Student ID           S1426481
+ Programme of Study   Computing
+
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:context=".EarthquakeDetailedActivity">
+
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorEFEFEF"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="SOUTHERN PERU"
+        android:textColor="@color/color3E3C3B"
+        android:textFontWeight="bold"
+        android:textSize="18sp"
+
+        android:textStyle="" />
+
+    <LinearLayout
+        android:id="@+id/pa"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="70dp"
+        android:paddingTop="10dp"
+        android:paddingRight="70dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="315dp">
+
+            <TextView
+                android:id="@+id/tvDateLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+
+                android:layout_weight="0.5"
+                android:text="DATE"
+                android:textColor="@color/colorC9A098"
+                android:textSize="@dimen/item_text_size" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.5"
+                android:gravity="clip_horizontal|right"
+                android:text="05-03-2019"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:textSize="@dimen/item_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="315dp">
+
+            <TextView
+                android:id="@+id/banana1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+
+                android:layout_weight="0.5"
+                android:text="TIME"
+                android:textColor="@color/colorC9A098"
+                android:textSize="@dimen/item_text_size" />
+
+            <TextView
+                android:id="@+id/lvTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.5"
+                android:gravity="right"
+                android:text="6.7"
+
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/item_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="315dp">
+
+            <TextView
+                android:id="@+id/tvDepthLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="DEPTH"
+                android:textColor="@color/colorC9A098"
+                android:textSize="@dimen/item_text_size" />
+
+            <TextView
+                android:id="@+id/tvDepth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.5"
+                android:gravity="right"
+                android:text="240km"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/item_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="315dp">
+
+            <TextView
+                android:id="@+id/tvMagnitudeLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.5"
+                android:text="MAGNITUDE"
+                android:textColor="@color/colorC9A098"
+                android:textSize="@dimen/item_text_size" />
+
+            <TextView
+                android:id="@+id/tvMagnitude"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.5"
+                android:gravity="right"
+
+                android:text="6.7"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/item_text_size" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".EarthquakeDetailedActivity" />
+
+    </LinearLayout>
+</LinearLayout>

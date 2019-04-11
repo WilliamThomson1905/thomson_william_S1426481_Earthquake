@@ -1,0 +1,84 @@
+
+<!--
+
+ Name                 William Thomson
+ Student ID           S1426481
+ Programme of Study   Computing
+
+ -->
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="0dp"
+    android:minWidth="0dp"
+    android:minHeight="0dp"
+    android:padding="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    android:background="@color/color3E3C3B"
+
+
+    tools:context="org.me.gcu.coursework.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingRight="20dp">
+
+            <ImageButton
+
+
+                android:id="@+id/btnRSSFeedChange"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="20dp"
+                android:background="@null"
+                android:padding="10dp"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:src="@mipmap/hierarchy"
+                android:text="rssFeed"
+                android:tint="@color/White" />
+
+            <ImageButton
+                android:id="@+id/btnListOfEarthquakes"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dp"
+                android:src="@mipmap/ic_list"
+                android:text="List"
+                android:tint="@color/White" />
+
+            <ImageButton
+                android:id="@+id/btnEarthViewOfEarthquakes"
+                android:layout_width="30dp"
+
+                android:layout_height="30dp"
+                android:background="@null"
+                android:padding="10dp"
+                android:src="@mipmap/ic_earth"
+
+                android:tint="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</Toolbar>

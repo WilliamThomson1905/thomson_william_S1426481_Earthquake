@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+ Name                 William Thomson
+ Student ID           S1426481
+ Programme of Study   Computing
+
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:context=".EarthquakeMapActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/custom_title_bar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dateOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Earthquakes After: Select Date">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCountOfQuakes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:text="Quakes" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EarthquakeMapActivity" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+
+        <!--android:src="@android:drawable/sym_def_app_icon" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/Azure"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:paddingTop="25dp"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:text="Google Map"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:textFontWeight="bold"-->
+        <!--android:textSize="18sp"-->
+
+        <!--android:textStyle="" />-->
+
+</LinearLayout>

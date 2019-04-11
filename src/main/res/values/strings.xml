@@ -1,0 +1,22 @@
+<!--
+
+ Name                 William Thomson
+ Student ID           S1426481
+ Programme of Study   Computing
+
+ -->
+<resources>
+    <string name="google_maps_API_key">AIzaSyC5d9wmDWlRzKwq9035DzHqaSDsguR1BCY</string>
+    <string name="app_name">Milkquake</string>
+
+
+
+    <string-array name="spinner_array">
+        <item>Sort Earthquakes</item>
+        <item>Alphabethical</item>
+        <item>Magnitude</item>
+        <item>Depth</item>
+        <item>Date</item>
+
+    </string-array>
+</resources>
