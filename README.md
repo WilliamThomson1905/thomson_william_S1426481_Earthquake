@@ -1,1 +1,1 @@
-# thomson_william_S1426481_Earthquake
+# thomson_william_Earthquake
